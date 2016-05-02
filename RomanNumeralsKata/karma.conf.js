@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
       'test-main.js',
       {pattern: 'romanNumeralConverter.js', included: false},
-      {pattern: 'test.js', included: false, watched: true}
+      {pattern: 'test/test.js', included: false, watched: true}
     ],
 
 
